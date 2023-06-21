@@ -15,6 +15,7 @@ public class BuscadorPaises {
         Scanner scanner= new Scanner(System.in);
         String pais;
         String  googleMaps="https://www.google.com/maps/search/";
+
         System.out.println("Ingrese el nombre del pais a buscar");
         pais=scanner.nextLine();
 
