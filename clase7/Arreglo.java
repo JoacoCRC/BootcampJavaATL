@@ -43,6 +43,6 @@ Ahora, hay que mostrar el promedio. Para hacer esto se suman todos los números 
         for(int i=0;i<5;i++){
             sum+=arreglo[i];
         }
-        System.out.println("El promedio del arreglo es: "+sum/5);
+        System.out.println("El promedio del arreglo es: "+(float) sum/5);
     }
 }
